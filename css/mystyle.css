@@ -49,7 +49,7 @@ button:hover {
   gap: 1rem;
 }
 
-/* above 540 media querry */
+/* above 540px media querry */
 
 .image-list {
   display: grid;
@@ -57,9 +57,16 @@ button:hover {
   gap: 1rem;
 }
 
-/* above 768 media querry */
+/* above 768px media querry */
 .image-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+/* above 992px media querry */
+.image-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
 }
