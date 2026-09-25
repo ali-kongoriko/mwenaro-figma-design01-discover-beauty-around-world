@@ -56,3 +56,10 @@ button:hover {
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
 }
+
+/* above 768 media querry */
+.image-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
